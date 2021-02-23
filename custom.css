@@ -13,8 +13,8 @@
 
 .MultiCarousel .MultiCarousel-inner .item {
     float: left;
-	cursor:pointer;
-	min-height: 200px;
+    cursor: pointer;
+    min-height: 200px;
 }
 
 .MultiCarousel .MultiCarousel-inner .item>div {
@@ -24,11 +24,13 @@
     background: #f1f1f1;
     color: #666;
 }
-p{
-	padding-top: 5px;
+
+p {
+    padding-top: 5px;
     padding-bottom: 5px;
     margin: 0px;
 }
+
 .MultiCarousel .leftLst,
 .MultiCarousel .rightLst {
     position: absolute;
