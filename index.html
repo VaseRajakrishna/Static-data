@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="css/bt.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jq.js"></script>
+    <script src="js/bt.js"></script>
+
+    <script src="js/data.js"></script>
+    <script src="js/custom.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+</head>
+
+<body>
+    <div class="hdr-ctnr clearfix">
+        <div class="hdr-ctnt">
+            <div class="logo-ctnr">
+                <p>Ice Queen</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="MultiCarousel col-xs-6" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="100">
+                <div class="MultiCarousel-inner">
+                    <div class='item'>
+                        <div class='pad15'>
+                            <img src="flavour.jpg" alt="" class="img-responsive">
+                            <p>Flavour 1</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary leftLst"><</button>
+                <button class="btn btn-primary rightLst">></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="btn-ctnr">
+                <button class="btn ad-btn glb-btn">Add</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="flavour-info-ctnr clearfix">
+                <div class="col-sm-6">
+                    <div class="item-ctnr">
+                        <img src="flavour.jpg" class="img-responsive">
+                        <p>Flavour <span id="flno"></span></p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="info-ctnr">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                            to using 'Content here, content here', making it look like readable English.</p>
+                    </div>
+                    <div class="clearfix half-bl">
+                        <div class="bl">
+                            <p>Small : <span id="small"></span></p>
+                        </div>
+                        <div class="bl">
+                            <p>Medium : <span id="medium"></span></p>
+                        </div>
+                        <div class="bl">
+                            <p>Large : <span id="large"></span></p>
+                        </div>
+                    </div>
+                    <div class="clearfix half-bl">
+                        <div class="bl">
+                            <p>Quantity : 20</p>
+                        </div>
+                        <div class="bl">
+                            <p>Quantity : 15</p>
+                        </div>
+                        <div class="bl">
+                            <p>Quantity : 25</p>
+                        </div>
+                    </div>
+                    <div class="btn-ctnr col-xs-12">
+                        <button class="btn glb-btn" id="close">Close</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="space"></div>
+</body>
+
+</html>
